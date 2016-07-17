@@ -248,7 +248,7 @@ local action = function(msg, blocks, ln)
 	    		api.sendMessage(groups[i], blocks[2], true)
 	        	print('Sent', groups[i])
 	    	end
-	    	api.sendMessage(config.admin, 'Broadcast delivered')
+	    	api.sendMessage(config.admin, 'Send!')
 	    end
 	    mystat('/bcg')
 	end
@@ -269,7 +269,7 @@ local action = function(msg, blocks, ln)
 		mystat('/commands')
     end
     if blocks[1] == 'stats' then
-    	local text = '#stats:\n'
+    	local text = '#Stats Of SmS:\n'
         local hash = 'bot:general'
 	    local names = db:hkeys(hash)
 	    local num = db:hvals(hash)
