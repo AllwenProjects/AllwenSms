@@ -179,8 +179,8 @@ return {
             modlist = '*Creator*:\n&&&1\n\n*Admins*:\n&&&2'
         },
         report = {
-            no_input = '🎬*Error*',
-            sent = '👤 _Sent_',
+            no_input = '🎬Error',
+            sent = '👤Sent',
             feedback_reply = '*This Message Is From Allwen*',
         },
         service = {
