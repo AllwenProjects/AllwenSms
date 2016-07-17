@@ -1,5 +1,5 @@
 local action = function(msg, matches)
-  local text = " _سلام_\n\n`به ربات پیامرسان آرمین خوش آمدید`\n\n _لطفا پیام خود را مانند نمونه زیر ارسال کنید_\n\n/c *Text* "
+  local text = "👤*Hi*\n🎬Welcome To Allwen _SmS_ Robot!\n😃Sent Your Message By :\n/c [*TexT*]"
   api.sendReply(msg,text,true)
   end
 local triggers = {
