@@ -180,8 +180,8 @@ return {
         },
         report = {
             no_input = '🎬*Error*',
-            sent = '👤_Sent_'
-            feedback_reply = '*This Message Is From Allwen*'
+            sent = '👤_Sent_',
+            feedback_reply = '*This Message Is From Allwen*',
         },
         service = {
             new_group = 'Hi all!\n*&&&1* added me here to help you to manage this group.\nIf you want to know how I work, please start me in private or type /help  :)',
