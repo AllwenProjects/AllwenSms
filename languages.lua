@@ -180,7 +180,7 @@ return {
         },
         report = {
             no_input = '🎬*Error*',
-            sent = '👤_Sent_
+            sent = '👤_Sent_'
             feedback_reply = '*This Message Is From Allwen*'
         },
         service = {
