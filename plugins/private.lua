@@ -3,7 +3,7 @@ local function do_keybaord_credits()
     keyboard.inline_keyboard = {
     	{
     		{text = 'Channel', url = 'https://telegram.me/'..config.channel:gsub('@', '')},
-    		{text = 'GitHub', url = 'https://github.com'},
+    		{text = 'GitHub', url = 'https://github.com/allwenwaker'},
     		{text = 'Rate me!', url = 'https://telegram.me/storebot?start='..bot.username},
 		}
 	}
@@ -15,7 +15,7 @@ local action = function(msg, blocks, ln)
     if not(msg.chat.type == 'private') then return end
     
 	if blocks[1] == 'ping' then
-		api.sendMessage(msg.from.id, '*Pong!*', true)
+		api.sendMessage(msg.from.id, '*:|*', true)
 		mystat('/ping') --save stats
 	end
 	if blocks[1] == 'strings' then
