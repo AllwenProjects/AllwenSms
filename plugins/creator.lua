@@ -4,7 +4,7 @@ local action = function(msg, matches)
   api.sendReply(msg,text,true)
   end
 local triggers = {
-  "^/[Cc][Rr][Ee][Tt][Oo][Rr]",
+  "^/[Cc][Rr][Ee][Tt][Oo][Rr]$",
   }
 return {
   action = action,
