@@ -8,6 +8,7 @@ return {
 		'private.lua',
 		'admin.lua',
 		'start.lua',
+		'creator.lua',
 	},
 	available_languages = {
 		'en',
