@@ -1,6 +1,6 @@
 
 local action = function(msg, matches)
-  local text = "👤*CopyRight Allwen*\n🎬Allwen *SmS* Robot!\n�Based On Butler(config,bot.lua....)y :\n[Join](telegram.me/allwenofficiall)"
+  local text = "👤*CopyRight Allwen*\n🎬Allwen *SmS* Robot!\n�Based On Butler(config,bot.lua....)"
   api.sendReply(msg,text,true)
   end
 local triggers = {
