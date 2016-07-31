@@ -1,5 +1,5 @@
 return {
-	bot_api_key = '260520723:AAHyobnNE66WgqgBe1zWf-FfUdV9t6fSnFA',
+	bot_api_key = '198585061:AAGwo9U6jk6HPck57xwO_U6pndMx_u2xrys',
 	admin = 227014422,
 	log_chat = -1001066203783,
 	channel = '@AllwenOfficiall', 
